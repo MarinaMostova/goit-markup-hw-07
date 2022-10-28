@@ -1,0 +1,25 @@
+.networks-footer {
+  padding-top: 12px;
+  margin-right: 93px;
+}
+
+.networks-footer__text {
+  display: inline-block;
+  margin-bottom: 20px;
+  line-height: 1.14;
+  font-weight: 700;
+  font-size: 14px;
+
+  text-transform: uppercase;
+  color: $white-text-color;
+}
+
+.networks-footer__list {
+  @extend %list;
+  display: flex;
+  justify-content: space-between;
+}
+
+.networks-footer__item:not(:last-child) {
+  margin-right: 10px;
+}

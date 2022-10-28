@@ -1,0 +1,32 @@
+.subscription {
+  padding-top: 12px;
+}
+
+.subscription__text {
+  display: inline-block;
+  margin-bottom: 20px;
+  line-height: 1.14;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  color: $white-text-color;
+}
+
+.subscription__form {
+  display: flex;
+}
+
+.subscription__input {
+  width: 358px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: $dark-background-color;
+  padding: 15px 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+}
